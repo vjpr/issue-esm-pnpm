@@ -1,5 +1,6 @@
 dependencies:
   esm: 3.0.72
+  stringify-object: 3.2.2
 packages:
   /esm/3.0.72:
     dev: false
@@ -7,8 +8,35 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-xmh7Ay/71Wl41EPM3FVomp/GZKMgEGoo3x/qWdbGi+0DODbte+2l1sSXAiDKahBQn0zioG30ZNJTkxz08pEsMw==
+  /get-own-enumerable-property-symbols/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-TtY/sbOemiMKPRUDDanGCSgBYe7Mf0vbRsWnBZ+9yghpZ1MvcpSpuZFjHdEeY/LZjZy0vdLjS77L6HosisFiug==
+  /is-obj/1.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+  /is-regexp/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-/S2INUXEa6xaYz57mgnof6LLUGk=
+  /stringify-object/3.2.2:
+    dependencies:
+      get-own-enumerable-property-symbols: 2.0.1
+      is-obj: 1.0.1
+      is-regexp: 1.0.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-O696NF21oLiDy8PhpWu8AEqoZHw++QW6mUv0UvKZe8gWSdSvMXkiLufK7OmnP27Dro4GU5kb9U7JIO0mBuCRQg==
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
   esm: ^3.0.72
+  stringify-object: ^3.2.2
