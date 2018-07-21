@@ -1,0 +1,14 @@
+dependencies:
+  esm: 3.0.72
+packages:
+  /esm/3.0.72:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-xmh7Ay/71Wl41EPM3FVomp/GZKMgEGoo3x/qWdbGi+0DODbte+2l1sSXAiDKahBQn0zioG30ZNJTkxz08pEsMw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  esm: ^3.0.72
